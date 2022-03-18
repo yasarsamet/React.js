@@ -1,0 +1,22 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+    flex-direction: column;
+}
+
+.image-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr ));
+    grid-gap: 10px;
+    padding-top: 10px;
+}
+
+.image-list-container img {
+    width: 300px;
+}
+
+.search-bar-container {
+        flex: 1;
+        padding: 0 20px;
+}
